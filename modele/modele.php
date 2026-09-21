@@ -4,7 +4,7 @@ function connect_bd() {
   $servername = "3b2wc.myd.infomaniak.com";
   $username = "3b2wc_webmaster";
   $password = "";
-  $bdd = "";
+  $bdd = "3b2wc_cinematrice";
   try {
       $connect = new PDO("mysql:host=$servername;dbname=$bdd", $username, $password);
       $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
