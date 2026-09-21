@@ -1,0 +1,187 @@
+body {
+    background-repeat:repeat;
+    color:white;
+    margin-left:50px;
+}
+
+p {
+    text-align:justify;
+    margin-left:20px;
+    margin-right:10px;
+}
+
+.form-control {
+  border-width: 3px !important;
+}
+
+
+.btn {
+    border-color:black;
+    border-width:0px;
+    border-radius:0px;
+    background-image:url("images/body/backgroundCadre.jpg");
+}
+
+nav li a {
+display: block;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.bg-image {
+background-image: url('images/body/fond.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.icone {
+    max-width: 20px;
+}
+
+.navButton {
+    background-image: url('images/pellicules/pelliculeUniqueNav.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.navButtonCourant {
+  font-weight: bold;
+  font-size: 24px;
+  background-color:#595959;
+}
+
+nav {
+    margin-left:-12px;
+    margin-right:-12px;
+}
+
+.logo {
+    max-width:400px;
+    max-height:100px;
+    margin-left:20px;
+    background-image:url("images/pellicules/pellicule.png");
+}
+
+h1 {
+    margin-bottom:20px;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+h2 {
+  margin-left:20px;
+}
+
+.form-control {
+    max-width:80%;
+    border-radius:0px;
+    margin-right:5px;
+    border-width:2px;
+    border-color:black;
+}
+
+.illustration {
+    max-width:95%;
+    margin-top:25px;
+}
+
+.bdElement { /*concerne l'affichage des éléments de la bdd*/
+    background-color: black;
+    margin:20px;
+    padding:10px;
+    padding-right:30px;
+
+} 
+
+.bdElement2 {
+    background-color:#404040;
+    border-width:20px;
+    border-color:white;
+    margin:20px;
+    padding:20px;
+}
+
+.affiche {
+    max-width:400px;
+    height:auto;
+}
+
+.clickable {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.pave {
+    width: 18%;
+    height: 500px;
+    margin-left: 0.5%;
+    margin-bottom: 5px;
+    height: auto;
+}
+
+.mobileOnly {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 420px) { /* Un peu de CSS pour rendre la version mobile plus lisible */
+    .container-mobile {
+        flex-direction: column; /* Disposition empilée sur mobile */
+    }
+    .element-mobile {
+        margin-bottom: 20px;
+    }
+    .logo {
+        max-width:85%;
+        margin-bottom: 45px;
+    }
+    .btn-light {
+        margin-top: 5px;
+        margin-bottom:-20px;
+    }
+    .navMobile {
+        flex-wrap: wrap;
+    }
+    .navButton {
+        flex: 0 0 calc(50%);
+        margin-bottom:-22px; /* Petit effet sympa de superposition */
+    }
+    .illustration {
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+    .video-container iframe {
+        width:195px !important;
+        height:100px !important; /* Sans !important, ce css n'a pas la priorité sur le css normal*/
+        margin-left:-50px;
+    }
+    .InfosFilmsMobile {
+        text-align: left;
+    }
+    .pave {
+        width: 31%; /* 3 affiches par ligne pour le mobile me semble idéal, ça ressemble à ce qui se fait sur Netflix */
+        height: 500px;
+        margin-left: 0.5%;
+        margin-bottom: 5px;
+        height: auto;
+    }
+    .textMobile {
+        width: 100% !important;
+    }
+  	.mobileHidden {
+		display: none;
+  	}
+  	.mobileOnly {
+		display: inline;
+		object-fit: cover;
+		width: 96vw;
+	
+}
