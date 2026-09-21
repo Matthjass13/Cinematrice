@@ -4,6 +4,8 @@ Site web du podcast **Cinématrice** — critiques, découvertes et podcasts cin
 
 Projet en PHP pur (sans framework) avec une base de données MySQL, initialement hébergé chez Infomaniak.
 
+![Page d'accueil de Cinématrice](docs/screenshot-accueil.webp)
+
 ## Prérequis
 
 - **XAMPP** (Apache + MySQL/MariaDB + PHP + phpMyAdmin) — [apachefriends.org](https://www.apachefriends.org/)
