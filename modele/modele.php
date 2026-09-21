@@ -1,8 +1,8 @@
 <?php
 
 function connect_bd() {
-  $servername = "3b2wc.myd.infomaniak.com";
-  $username = "3b2wc_webmaster";
+  $servername = "localhost";
+  $username = "root";
   $password = "";
   $bdd = "3b2wc_cinematrice";
   try {
